@@ -1,0 +1,154 @@
+body{
+    margin: 0;
+}
+
+.container{
+    /* border: 2px solid red; */
+    text-align: center;
+    overflow-y: hidden;
+    /* padding-top: 2rem; */
+}
+.inner-container-1{
+    /* border: 2px solid yellow; */
+    background-color: hsl(228, 68%, 55%);
+    border-radius: 6%;
+}
+.heading{
+    padding-top: 2em;
+}
+
+.change-font-size{
+    
+    font-size: 1.8em;
+}
+.main-circle{
+    height: 125px;
+    width: 125px;
+    background-color: #5235b1;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.appreciation-text{
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 2em;
+    justify-content: center;
+    /* border: 2px solid black; */
+}
+.great-text{
+    padding-bottom: 0.7em;
+}
+.summary-text{
+    font-family: 'Times New Roman';
+    font-weight: bolder;
+    max-width: 30%;
+    padding-top: 1em;
+    /* border: 2px solid red; */
+}
+.little-border-radius{
+
+    border-radius: 4%;
+    max-width: 90%;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    /* padding: 1em 0.5em 0em 0em; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+
+}
+
+.image-styling{
+    position: absolute;
+    /* border: 2px solid brown; */
+    margin-left: -10%;
+}
+.btn{
+    background-color: hsl(228, 45%, 44%);
+    border-radius: 2em;
+    max-width: 90%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 0.7em;
+    padding-bottom: 0.7em;
+}
+a{
+    text-decoration: none;
+}
+
+@media(min-width: 80em) {
+    .container{
+        /* border: 2px solid blue; */
+        display: flex;
+width: 70%;
+/* margin-top: 20%; */
+        /* margin-left: auto;
+        margin-right: auto; */
+        /* margin: 0 auto; */
+        justify-content: center;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        transform: translate(-10%, -0%); 
+        align-items: center;
+
+    }
+    .inner-container-1{
+        /* border: 2px solid lawngreen; */
+        min-height: 90%;
+    }
+    .little-border-radius{
+        /* border: 2px solid black; */
+        max-width: 120%;
+        margin-left: 2em;
+    }
+    .image-styling{
+        position: absolute;
+        /* position: relative; */
+        left: 73%;
+        /* border: 2px solid violet; */
+    }
+    .summary-text {
+        max-width: 45%;
+    }
+    img{
+        max-width: 100%;
+    }
+    .btn{
+        /* max-width: 60%; */
+        margin-left: 2em;
+
+    }
+    .inner-container-2{
+        /* border: 2px solid gold; */
+        width: 30%;
+        border-radius: 1em;
+        box-shadow: 0px 10px -14px 14px #f5e6e6;
+        /* box-shadow: 20px 2px 2px 2px white; */
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
